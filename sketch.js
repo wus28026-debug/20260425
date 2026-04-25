@@ -199,8 +199,8 @@ function setup() {
 
   // 初始化特殊寶物 (鑰匙與錢袋)
   // 當滑鼠按下鑰匙圖案則連結到 week 1，錢袋連結到 week 2
-  keyTreasure = new TreasureItem(width - 260, height - 160, "https://wus28026-debug.github.io/20260223/", "key");
-  bagTreasure = new TreasureItem(width - 100, height - 160, "https://wus28026-debug.github.io/20260302/", "bag");
+  keyTreasure = new TreasureItem(width - 260, height - 160, "https://hackmd.io/@BaN-RevzTta1yPjQLaJ-Ew/SJPaFLvjbg", "key");
+  bagTreasure = new TreasureItem(width - 100, height - 160, "https://hackmd.io/@BaN-RevzTta1yPjQLaJ-Ew/S1dP4AFnbl", "bag");
 
   // 初始化珍珠
   for (let i = 0; i < assignments.length; i++) {
